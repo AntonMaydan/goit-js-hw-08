@@ -2,7 +2,7 @@ import throttle from 'lodash.throttle';
 
 const LOCALSTORAGE_KEY = 'feedback-form-state';
 const formEl = document.querySelector('.feedback-form');
-
+const formData = {};
 initForm();
 
 formEl.addEventListener('submit', onFormSubmit);
